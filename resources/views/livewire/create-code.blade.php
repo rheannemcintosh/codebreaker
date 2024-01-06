@@ -6,4 +6,6 @@
     </form>
 
     <x-code :message="$message" :letter="$this->letters" />
+
+    <x-legend :letters="$this->letters" />
 </div>
