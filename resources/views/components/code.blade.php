@@ -3,7 +3,7 @@
     'letters'
 ])
 
-<div class="text-white text-center mt-8 flex gap-7">
+<div class="text-white text-center flex gap-7">
     @foreach(explode(' ', $message) as $word)
         <div class="word">
             @foreach(str_split($word) as $character)
