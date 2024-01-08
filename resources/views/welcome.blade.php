@@ -1,13 +1,11 @@
 <x-layout>
-    <section class="px-6">
-        <div class="container mx-auto">
-            <header class="flex justify-center">
+    <section class="container mx-auto px-6 h-full flex flex-col">
+            <header class="flex justify-center print:justify-start">
                 <h1>
-                    <img src="/logo.svg" alt="Codebreaker" aria-label="Codebreaker Logo">
+                    <img src="/logo.svg" alt="Codebreaker" aria-label="Codebreaker Logo" class="print:invert print:w-36">
                 </h1>
             </header>
 
             <livewire:create-code/>
-        </div>
     </section>
 </x-layout>

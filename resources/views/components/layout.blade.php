@@ -9,7 +9,7 @@
     @vite('resources/css/app.css')
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
-<body class="pt-8 bg-primary text-white">
+<body class="pt-8 bg-primary print:bg-white text-white print:text-black-500 grid place-items-center h-full">
     {{ $slot }}
 </body>
 </html>
