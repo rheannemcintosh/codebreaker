@@ -5,7 +5,7 @@
         </textarea>
     </form>
 
-    <x-code :message="$message" :letter="$this->letters" />
+    <x-code :message="$message" :letters="$this->letters" />
 
     <x-legend :letters="$this->letters" />
 </div>
